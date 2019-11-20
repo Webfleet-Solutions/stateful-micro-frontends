@@ -1,0 +1,8 @@
+*.iml
+.idea/
+dist/
+yarn.lock
+yarn-error.log
+node_modules/
+public/app-*/*.js
+public/modules/
