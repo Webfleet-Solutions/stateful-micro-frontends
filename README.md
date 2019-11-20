@@ -1,3 +1,6 @@
+[![build status](https://img.shields.io/travis/Webfleet-Solutions/stateful-micro-frontends/master.svg?style=flat-square)](https://travis-ci.org/Webfleet-Solutions/stateful-micro-frontends)
+[![license](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 # Stateful Micro Frontends with React and Redux
 This is a simplistic micro-frontend demo inspired by Cam Jackson's great article on 
 [Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) and his corresponding
