@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && npm run copy",
+    "build": "tsc && yarn run copy",
     "copy": "copyfiles --up 1 ./src/**/*.css ./dist"
   },
   "files": [
