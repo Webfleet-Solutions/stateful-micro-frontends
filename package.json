@@ -16,11 +16,11 @@
     "start": "serve -l 3000 public",
     "build": "yarn run build:lib && yarn run build:mod && yarn run build:app",
     "build:lib": "yarn --cwd lib-common build",
-    "build:mod": "concurrently npm:build:mod-consumer npm:build:mod-producer npm:build:mod-solitary",
+    "build:mod": "concurrently yarn:build:mod-consumer yarn:build:mod-producer yarn:build:mod-solitary",
     "build:mod-consumer": "yarn --cwd mod-consumer build",
     "build:mod-producer": "yarn --cwd mod-producer build",
     "build:mod-solitary": "yarn --cwd mod-solitary build",
-    "build:app": "concurrently npm:build:app-iframe npm:build:app-import npm:build:app-script",
+    "build:app": "concurrently yarn:build:app-iframe yarn:build:app-import yarn:build:app-script",
     "build:app-iframe": "yarn --cwd app-iframe build",
     "build:app-import": "yarn --cwd app-import build",
     "build:app-script": "yarn --cwd app-script build"
